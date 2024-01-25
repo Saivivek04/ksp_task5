@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.A{
+    position: relative;
+    max-width: 800px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.left{
+    background: maroon;
+    padding: 40px;
+}
+.right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profile{
+    color: rgb(251, 243, 243);
+}
+.Name{
+    font-size: x-large;
+}
